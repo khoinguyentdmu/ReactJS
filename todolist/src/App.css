@@ -1,0 +1,73 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(to right, #12FFF7, #B3FFAB);
+}
+
+.box {
+  width: 40%;
+  margin: auto;
+  padding: 20px;
+  background-color: rgba(0, 168, 235, 0.2);
+  border-radius: 10px;
+}
+
+.title {
+  text-align: center;
+}
+
+.input {
+  display: flex;
+}
+
+.button {
+  margin-left: 5px;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+}
+
+.submit {
+  background-color: rgba(0, 190, 0, 0.863);
+  color: white;
+}
+
+.delete {
+  background-color: rgba(4, 0, 247, 0.863);
+  color: white;
+}
+
+.submit:hover {
+  background-color: rgba(0, 134, 0, 0.863);
+}
+
+.submit:active {
+  background-color: red;
+}
+
+.content {
+  padding: 15px 20px;
+  outline: none;
+  flex: 1;
+  border: none;
+  border-radius: 5px;
+}
+
+.tasks {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 32px;
+}
+
+.tasks>li {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: flex;
+  margin-top: 10px;
+}
+
+.tasks>li>span {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
